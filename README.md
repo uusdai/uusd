@@ -145,4 +145,5 @@ MIT License - see [LICENSE](LICENSE)
 
 - Website: https://uusd.ai
 - Whitepaper: [PDF](docs/whitepaper.pdf) | [BitcoinTalk](https://bitcointalk.org/index.php?topic=5564031.msg65989162)
-- Twitter: [@UUSDai](https://twitter.com/UUSDai)
+- Twitter: [@UUSDai](https://x.com/UUSDai)
+- Telegram: [UUSD_ai](https://t.me/UUSD_ai)
