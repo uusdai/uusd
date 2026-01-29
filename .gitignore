@@ -24,3 +24,4 @@ Thumbs.db
 
 # Node (if using npm for any tooling)
 node_modules/
+.env.example
