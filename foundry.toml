@@ -1,0 +1,32 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc = "0.8.28"
+optimizer = true
+optimizer_runs = 200
+via_ir = false
+evm_version = "cancun"
+
+# Remappings
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts-upgradeable/lib/openzeppelin-contracts/contracts/",
+    "@openzeppelin/contracts-upgradeable/=lib/openzeppelin-contracts-upgradeable/contracts/",
+    "forge-std/=lib/forge-std/src/"
+]
+
+[profile.default.fuzz]
+runs = 256
+
+# Allow file system operations for scripts
+fs_permissions = [{ access = "read-write", path = "/tmp" }]
+
+[etherscan]
+bsc = { key = "${BSCSCAN_API_KEY}" }
+bsc_testnet = { key = "${BSCSCAN_API_KEY}" }
+
+[rpc_endpoints]
+bsc = "${BSC_RPC_URL}"
+bsc_testnet = "${BSC_TESTNET_RPC_URL}"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
