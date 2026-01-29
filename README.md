@@ -45,7 +45,7 @@ Deployed using CREATE2 for deterministic addresses across all EVM-compatible cha
 ### Installation
 
 ```bash
-git clone https://github.com/anthropics/uusd.git
+git clone https://github.com/uusdai/uusd.git
 cd uusd
 forge install
 ```
