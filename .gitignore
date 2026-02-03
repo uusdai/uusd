@@ -22,6 +22,11 @@ coverage/
 .DS_Store
 Thumbs.db
 
+# Deployment documentation (sensitive - keep local only)
+SECURITY.md
+DEPLOYMENT_STATUS.md
+broadcast/
+
 # Node (if using npm for any tooling)
 node_modules/
 .env.example
